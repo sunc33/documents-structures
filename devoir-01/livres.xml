@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE livres SYSTEM "livres.dtd">
+
+<livres>
+	<livre id="l1" lang="chinois">
+		<titre>Vivre!</titre>
+		<auteur>YU Hua</auteur>
+		<date>1994</date>
+	</livre>
+	<livre id="l2" lang="chinois">
+		<titre>La dure loi du karma</titre>
+		<auteur>MO Yan</auteur>
+		<date>2008</date>
+	</livre>
+	<livre id="l3" lang="français">
+		<titre>Germinal</titre>
+		<auteur>Emile Zola</auteur>
+		<date>1885</date>
+	</livre>
+</livres>
