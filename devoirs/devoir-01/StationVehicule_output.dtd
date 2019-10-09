@@ -1,0 +1,12 @@
+<!ELEMENT Station_de_vehicules (ID_station,Code_postal,Adresse,Operateurs,Motorisation,Etat_fonctionnel,URL_Operateur,Complement_adresse,Nombre_de_places_reservees,geo_shape,geo_point_2d)>
+<!ELEMENT ID_station (#PCDATA)>
+<!ELEMENT Code_postal (#PCDATA)>
+<!ELEMENT Adresse (#PCDATA)>
+<!ELEMENT Operateurs (#PCDATA)>
+<!ELEMENT Motorisation (#PCDATA)>
+<!ELEMENT Etat_fonctionnel (#PCDATA)>
+<!ELEMENT URL_Operateur (#PCDATA)>
+<!ELEMENT Complement_adresse (#PCDATA)>
+<!ELEMENT Nombre_de_places_reservees (#PCDATA)>
+<!ELEMENT geo_shape (#PCDATA)>
+<!ELEMENT geo_point_2d (#PCDATA)>

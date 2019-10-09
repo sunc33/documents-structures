@@ -1,0 +1,7 @@
+<!ELEMENT livres (livre+)>
+<!ELEMENT livre (titre,auteur,date)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST livre id ID #REQUIRED>
+<!ATTLIST livre lang CDATA #REQUIRED>

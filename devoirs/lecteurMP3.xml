@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE baladeurs [
+
+<!ELEMENT baladeurs(baladeur+)>
+<!ELEMENT baladeur(type,memoire,bluetooth)>
+<!ENTITY bouleanOui "oui">
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT memoire (#PCDATA)>
+<!ELEMENT bluetooth (#PCDATA)>
+<!ATTLIST baladeur
+	id CDATA #REQUIRED
+	marque CDATA #REQUIRED>
+
+]>
+
+<baladeurs>
+	<baladeur id="1" marque="Walkman">
+		<type>100H</type>
+		<memoire>16G</memoire>
+		<bluetooth>&bouleanOui;</bluetooth>
+	</baladeur>
+	<baladeur id="2" marque="Djix-Lecteur">
+		<type>M349BT</type>
+		<memoire>16G</memoire>
+		<bluetooth>&bouleanOui;</bluetooth>
+	</baladeur>
+	<baladeur id="3" marque="Sony">
+		<type>NW-A45B</type>
+		<memoire>16G</memoire>
+		<bluetooth>&bouleanOui;</bluetooth>
+	</baladeur>
+	<baladeur id="4" marque="Walkman">
+		<type>NW-WM1Z</type>
+		<memoire>256G</memoire>
+		<bluetooth>&bouleanOui;</bluetooth>
+	</baladeur>
+	<baladeur id="5" marque="Sony">
+		<type>NWE393</type>
+		<memoire>4G</memoire>
+		<bluetooth>&bouleanOui;</bluetooth>
+	</baladeur>
+</baladeurs>
